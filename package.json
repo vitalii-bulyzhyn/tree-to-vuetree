@@ -7,8 +7,8 @@
     "build": "tsc --build",
     "clean": "tsc --build --clean"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Vitalii Bulyzhyn <vitalybulyzhin@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^17.0.42",
     "typescript": "^4.7.3"
