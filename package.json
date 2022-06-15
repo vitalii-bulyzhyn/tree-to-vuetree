@@ -2,7 +2,7 @@
   "name": "tree-to-vuetree",
   "version": "0.0.0",
   "description": "Dump list of nodes into shape for Vuetify tree component",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc --build",
     "clean": "tsc --build --clean"
