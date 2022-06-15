@@ -2,7 +2,7 @@ import { Node } from "./interfaces/node";
 
 let root_path: Array<any> = [];
 
-export const find_all_relatives = (id, array) => {
+export const find_all_relatives = (id: number, array: Array<any>) => {
   const related_indexes = array
     .filter(item => item.get_parent() === id)
     .map(item => item.get_id())
@@ -25,7 +25,7 @@ export const find_all_relatives = (id, array) => {
   return related_indexes
 }
 
-export const build_path = (array: Array<any>, parent_id, path) => {
+export const build_path = (array: Array<any>, parent_id: number, path: Array<any>) => {
   array.map((item, index) => {
     const copy_path = [...path]
     if (item.id === parent_id) {
@@ -44,8 +44,8 @@ export const build_path = (array: Array<any>, parent_id, path) => {
 export const construct_tree = (node_list: Array<Node>): Array<any> => {
     root_path = []
     const node_list_working_copy = [...node_list]
-    const node_wait_list = []
-    const tree = [];
+    const node_wait_list: Array<any> = []
+    const tree: Array<any> = [];
     const check_list = [];
 
     node_list_working_copy.map(item => {
