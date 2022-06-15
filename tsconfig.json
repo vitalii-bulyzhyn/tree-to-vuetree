@@ -103,6 +103,7 @@
     "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
   },
   "exclude": [
-    "tree-to-vuetree-demo/**/*"
+    "tree-to-vuetree-demo/**/*",
+    "index.js"
   ]
 }

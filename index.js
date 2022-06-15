@@ -1,5 +1,4 @@
-const { TreeNode } = require('./build/node')
-const { construct_tree } = require('./build/index')
+const { TreeNode, construct } = require('./build')
 
 const nodesFromTheServer = [
     {
@@ -21,6 +20,6 @@ const nodesForWork = nodesFromTheServer.map(node => {
     return treeNode
 })
 
-const vuetifyTree = construct_tree(nodesForWork)
+const vuetifyTree = construct(nodesForWork)
 
 console.log(JSON.stringify(vuetifyTree))
