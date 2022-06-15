@@ -1,4 +1,4 @@
-const { TreeNode, construct } = require('./build')
+const { TreeNode, construct } = require('tree-to-vuetree')
 
 const nodesFromTheServer = [
     {
