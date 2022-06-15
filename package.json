@@ -1,6 +1,6 @@
 {
   "name": "tree-to-vuetree",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Dump list of nodes into shape for Vuetify tree component",
   "main": "dist/index.js",
   "scripts": {
