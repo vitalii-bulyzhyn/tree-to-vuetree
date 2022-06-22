@@ -17,5 +17,9 @@
   "dependencies": {
     "@types/uuid": "^8.3.4",
     "uuid": "^8.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vitalii-bulyzhyn/tree-to-vuetree"
   }
 }
