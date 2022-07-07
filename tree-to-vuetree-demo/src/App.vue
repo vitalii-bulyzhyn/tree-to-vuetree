@@ -1,16 +1,24 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <h1>Demo</h1>
+    <v-card
+    class="mx-auto"
+    max-width="400"
+    tile
+  >
+    <v-list-item>
+      <v-list-item-content>
+        <v-list-item-title>Single-line item</v-list-item-title>
+      </v-list-item-content>
+    </v-list-item>
+    </v-card>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  name: 'App'
 }
 </script>
 
