@@ -13,7 +13,7 @@
             with:
               node-version: '12'
           - name: Change to demo directory
-            run: cd tree-to-vuetree-demo
+            working-directory: ./tree-to-vuetree-demo
           - name: Install packages
             run: npm i
           - name: Set Creds
